@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Encriptador</title>
+</head>
+<body>
+    <header>
+        <img class="bienvenida" src="imagenes/what-if-neon.gif" alt="bienvenida">
+    </header>
+    <main>
+        <section class="seccion1">
+            <div class="contendorcajatexto">
+                <textarea placeholder="Escriba aquí" class="cajatexto"></textarea>
+            </div>
+            <div class="alerta">
+                <img class="alertaimg" src="imagenes/Alert.gif" alt="alerta">
+                <p>Solo son permitidas letras minúsculas y sin acentos</p>
+            </div>
+            <div class="contenedorbotones">
+                <input type="button" class="btn-encriptar" value="Encriptar">
+                <input type="button" class="btn-desencriptar" value="Desencriptar">
+            </div>
+        </section>
+        <section class="seccion2">
+            <div class="contenedorfondo">
+                <img src="imagenes/red.gif" alt="fondorojo">
+            </div>
+            <div class="contenedor-parrafo">
+                <h3>No se encontraron <br> mensajes</h3>
+                <p>Por favor ingresa el texto que deseas encriptar <br> o desencriptar. </p>
+            </div>
+
+            <div class="contenedor-copiar">
+                <input type="button" class="btn-copiar" value="Copiar">
+            </div>
+            <div class="contenedor-resultado">
+                <p class="texto-resultado"></p>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+    
+</body>
+</html>
